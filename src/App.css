@@ -14,7 +14,7 @@
 .key {
 
   background-color: aliceblue;
-  border: solid 3px antiquewhite;
+  border: solid 3px black;
   margin-bottom: 0;
   color: black;
 }
@@ -74,6 +74,8 @@ li {
   margin: 0.5rem;
   color: black;
   font-size: 1.5rem;
+  border-radius: 3%;
+  border: solid 2px white;
   
 }
 
@@ -95,6 +97,7 @@ li {
 
   display: grid;
   grid-template-columns: repeat(18, 1fr);
+  
 }
 
 
