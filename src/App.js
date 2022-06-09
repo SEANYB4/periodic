@@ -28,6 +28,7 @@ function App() {
 
           <div className='header'>
               <h1>Periodic</h1>
+              <p>Copyright Baincorp</p>
 
             
 
