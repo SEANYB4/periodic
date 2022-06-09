@@ -1,3 +1,5 @@
+
+
 .hide {
   opacity: 0;
 }
@@ -11,7 +13,7 @@
 
 .key {
 
-  background-color: aqua;
+  background-color: aliceblue;
   border: solid 3px antiquewhite;
   margin-bottom: 0;
   color: black;
@@ -21,17 +23,25 @@
 .keyList {
 
   display: grid;
+  grid-row-gap: 1rem;
   grid-template-columns: repeat(2, 1fr);
+
 }
 
 .keyTitle {
 
-  margin: 0;
+  margin: 1rem 0 0 2.6rem;
 }
 
+
+
 li {
+  
   display: flex;
   flex-direction: row;
+  border-bottom: solid 1px black;
+  margin: 0.2rem;
+  width: 15rem;
 }
 
 .code {
@@ -39,11 +49,12 @@ li {
   height: 1rem;
   width: 1rem;
   background-color: black;
+  border: solid 1px black;
 }
 
 
 .App {
-
+  
   background-color: #115089;
   height: 100%;
   width: 100%;
@@ -62,7 +73,10 @@ li {
   height: 5rem;
   margin: 0.5rem;
   color: black;
+  font-size: 1.5rem;
+  
 }
+
 
 
 .element2 {
@@ -72,6 +86,7 @@ li {
   margin: 0.5rem;
   color: black;
   transition: height 0.5s, width 0.5s;
+  box-shadow: 5px 10px black;
 }
 
 
@@ -93,9 +108,25 @@ li {
   background-color: aliceblue;
   color: black;
   border: solid 3px black;
+  bottom: 0;
 }
 
+.infoHead {
 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+ 
+}
+
+.infoheadmini {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 20rem;
+}
 
 .alkalimetals {
   background-color: fuchsia;
